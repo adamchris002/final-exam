@@ -2,8 +2,8 @@ import HomePage from "./HomePage";
 import CategoryPage from "./CategoryPage";
 import FruitPage from "./FruitPage";
 import BrandPage from "./BrandPage";
-import addPageBrand from "./addBrandPage";
+import AddBrandPage from "./AddBrandPage";
 
 export {
-    HomePage, CategoryPage, FruitPage, BrandPage, addPageBrand
+    HomePage, CategoryPage, FruitPage, BrandPage, AddBrandPage
 }

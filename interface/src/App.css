@@ -48,3 +48,11 @@ p {
 a {
   font-size: 20px;
 }
+
+.div-add-brand {
+    text-align: left;
+}
+
+.div-add-brand label {
+  padding-right: 125px;
+}

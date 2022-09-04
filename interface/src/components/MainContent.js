@@ -5,7 +5,7 @@ import {
   FruitPage,
   CategoryPage,
   BrandPage,
-  addPageBrand,
+  AddBrandPage,
 } from "../pages";
 
 const MainContent = () => {
@@ -21,7 +21,7 @@ const MainContent = () => {
         <Route path="/brands" element={<BrandPage></BrandPage>}></Route>
         <Route
           path="/brands/add"
-          element={<addPageBrand></addPageBrand>}
+          element={<AddBrandPage></AddBrandPage>}
         ></Route>
       </Routes>
     </div>
