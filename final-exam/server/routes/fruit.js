@@ -6,7 +6,7 @@ fruitRoute.get("/add", FruitController.addPage);
 fruitRoute.post("/add", FruitController.add);
 fruitRoute.get("/delete/:id", FruitController.delete);
 fruitRoute.get("/update/:id", FruitController.updatePage);
-fruitRoute.post("/update/:id", FruitController.update);
+fruitRoute.put("/update/:id", FruitController.update);
 
 module.exports = fruitRoute;
 
